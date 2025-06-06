@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap');
+:root {
+    --background-main: #0A0A0A;
+    --background-secondary: #1A1A1A;
+    --text-main: #F0F0F0;
+    --text-secondary: #B0B0B0;
+    --text-tertiary: #808080;
+    --border-color: #2C2C2C;
+    --hover-bg: #333333;
+    --button-main: #FFFFFF;
+    --button-alt: #C0C0C0;
+    --button-text: #111111;
+    --input-background: #1E1E1E;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-main);
+    background-color: var(--background-main);
+}
+.logo {
+height: 7rem;
+width: 7rem;
+}
+.header {    text-align: center;
+}
+
+.main-container {
+background-color: var(--background-secondary);
+width: 90%;
+margin: auto;
+height: 50vh;
+}
+.mixed {
+    color: var(--text-secondary);
+}
+.title {
+    text-align: center;
+}
