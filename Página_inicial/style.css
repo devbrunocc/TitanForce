@@ -54,3 +54,13 @@ border-radius: 1rem;
     margin: auto;
     margin-top: 3rem;
 }
+.text-work {
+    text-align: center;
+}
+.des-place {
+    background-color: var(--text-tertiary);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
