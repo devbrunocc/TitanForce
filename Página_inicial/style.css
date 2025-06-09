@@ -30,11 +30,27 @@ width: 7rem;
 background-color: var(--background-secondary);
 width: 90%;
 margin: auto;
-height: 50vh;
+height: 60vh;
+border-radius: 1rem;
 }
 .mixed {
     color: var(--text-secondary);
 }
 .title {
     text-align: center;
+}
+.text-main {
+    text-align: center;
+    margin-top: 0.5rem;
+} 
+.img-work {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
+}
+.img-places {
+    display: flex;justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
 }
