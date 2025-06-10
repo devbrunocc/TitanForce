@@ -23,7 +23,8 @@ body {
 height: 7rem;
 width: 7rem;
 }
-.header {    text-align: center;
+.header {   
+    text-align: center;
 }
 
 .main-container {
@@ -32,6 +33,7 @@ width: 90%;
 margin: auto;
 height: 60vh;
 border-radius: 1rem;
+padding: 2rem;
 }
 .mixed {
     color: var(--text-secondary);
