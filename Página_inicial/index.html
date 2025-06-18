@@ -20,7 +20,7 @@
                     <img src="../SRC/desenvolvimento-muscular.jpg" alt="" class="img-work">
                     <p class="text-work">DESENVOLVIMENTO CORPORAL</p>
                     <p class="desc">Hipertrofia e Definição muscular</p>
-                   <a href="#" class="link" onclick="openModal('modalDesenlvolvimento')">Ver mais</a>
+                   <a href="#" class="link" onclick="openPopUp('popup-overlay')">Ver mais</a>
                 </div>
             </div>
             <div class="des-place">
@@ -50,17 +50,20 @@
         </div>
     </section>
 
-    <!--Modals-->
-    <div id="modalDesenlvolvimento" class="modal">
-        <div class="modalContent">
-            <h3>Desenvolvimento Corporal</h3>
-            <span class="close" onclick="closeModal('modalDesenlvolvimento')">&times;</span>
-            <p>Treinos A, B, C</p>
-            <p>Peito, biceps e ombro</p>
-            <p>Costa, Tríceps e Antebraço</p>
-            <p>Pernas completo</p>
+    <!--Pop-ups-->
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopup" onclick="closePopUp('popup-overlay')">&times;</span>
+            <div class="popupContent" id="popupContent">
+                <h3>TREINO A, B, C</h3>
+                <p>Treino A: Peito, Costa e Ombro</p>
+                <p>Treino B: Bíceps, Tríceps e Antebraço</p>
+                <p>Treino C: Pernas completo</p>
+                
+            </div>
         </div>
     </div>
+    
     <script src="index.js"></script>
 
     
