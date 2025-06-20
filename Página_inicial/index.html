@@ -28,7 +28,7 @@
                     <img src="../SRC/composicao-corporal.jpg" alt="" class="img-work">
                     <p class="text-work">COMPOSIÇÃO CORPORAL</p>
                     <p class="desc">Emagrecimento</p>
-                    <a href="#" class="link">Ver mais</a>
+                    <a href="#" class="link" onclick="openPopUp('popup-overlayComp')">Ver mais</a>
                 </div>
             </div>
             <div class="des-place">
@@ -36,7 +36,7 @@
                     <img src="../SRC/boxe.jpg" alt="" class="img-work">
                     <p class="text-work">LUTAS</p>
                     <p class="desc">Boxe e artes marciais</p>
-                    <a href="#" class="link">Ver mais</a>
+                    <a href="#" class="link" onclick="openPopUp('popup-overlayLuta')">Ver mais</a>
                 </div> 
             </div>
             <div class="des-place">
@@ -44,7 +44,7 @@
                     <img src="../SRC/reabilitacao.jpg" alt="" class="img-work">
                     <p class="text-work">REABILITAÇÃO</p>
                     <p class="desc">Recuperação e fortalecimento</p>
-                    <a href="#" class="link">Ver mais</a>
+                    <a href="#" class="link" onclick="openPopUp('popup-overlayReabi')">Ver mais</a>
                 </div>
             </div>
         </div>
@@ -55,11 +55,58 @@
         <div class="popup" id="popup">
             <span class="close" id="closePopup" onclick="closePopUp('popup-overlay')">&times;</span>
             <div class="popupContent" id="popupContent">
-                <h3>TREINO A, B, C</h3>
+                <h3>TREINO DESENVOLVIMENTO MUSCULAR</h3>
                 <p>Treino A: Peito, Costa e Ombro</p>
                 <p>Treino B: Bíceps, Tríceps e Antebraço</p>
                 <p>Treino C: Pernas completo</p>
+                <a href="#" class="link link2">Ver treino completo</a>
                 
+            </div>
+        </div>
+    </div>
+    <div class="popup-overlay" id="popup-overlayComp">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopUp" onclick="closePopUp('popup-overlayComp')">&times;</span>
+            <div class="popupContent" id="popupContent">
+                <h3>TREINO DE COMPOSICAO CORPORAL</h3>
+                <p>Dia 1 – Membros Superiores + HIIT</p>
+                <p>Dia 2 – Pernas e Glúteos + Core</p>
+                <p>Dia 3 – Corpo inteiro + Cardio contínuo</p>
+                <a href="#" class="link link2">Ver treino completo</a>
+                
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="popup-overlayLuta">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopUp" onclick="closePopUp('popup-overlayLuta')">&times;</span>
+            <div class="popupContent" id="popupContent">
+                <h3>TREINO DE ARTES MARCIAIS</h3>
+                <p>🥋 Dia 1 – Técnicas de Boxe + Condicionamento</p>
+                <p>🦵 Dia 2 – Técnicas de Chute + Força Funcional</p>
+                <p>🛡️ Dia 3 – Circuito de Luta + Resistência Total</p>
+                <a href="#" class="link link2">Ver treino completo</a>
+                
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="popup-overlayReabi">
+        <div class="popup" id="popup">
+            <span class="close" id="closePopup" onclick="closePopUp('popup-overlayReabi')">&times;</span>
+            <div class="popupContent" id="popupContent">
+                <h3>TREINO DE REABILITAÇÃO</h3>
+                <p>💪 Dia 1 – Mobilidade e Estabilidade Lombar</p>
+                <p>🦵 Dia 2 – Joelho e Tornozelo (Mobilidade e Força leve)</p>
+                <p>Dia 3 – Ombros e Postura</p>
+                <a href="#" class="link link2">Ver treino completo</a>
             </div>
         </div>
     </div>
